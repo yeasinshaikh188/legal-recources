@@ -100,11 +100,11 @@
     </header>
     <main>
     <!-- legal area section -->
-    <div class="container mx-auto my-36 space-y-5 p-5">
+    <div class="container mx-auto my-11 lg:my-36 space-y-5 p-5">
         <h1 class="text-center lg:text-6xl text-3xl font-bold">The Legal Practice Area</h1>
         <p class="text-center text-xl w-full lg:w-2/3 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
         <!-- card section -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-9 space-y-11 lg:space-y-28">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
             <!-- first card -->
             <div class="card  text-primary-content shadow-xl ">
                 <div class="card-body">
@@ -186,12 +186,155 @@
 
         </div>
     </div>
-    
+    <!-- faq section -->
+    <div class="container mx-auto p-8">
+        <h1 class="text-2xl lg:text-4xl font-bold text-center">Frequently Asked Any Questions</h1>
+        <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+        <div class="my-16 flex-col lg:flex-row flex items-center gap-11 ">
+            <div class="flex-1">
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" checked="checked" /> 
+                    <div class="collapse-title text-xl font-medium">
+                        Are application fee waivers available?
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                        Are application fee waivers available?
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                        Are application fee waivers available?
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                        Are application fee waivers available?
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, . </p>
+                    </div>
+                  </div>
 
+            </div>
+            <div class="flex-1">
+                <img src="./images/faq.png" alt="">
+
+            </div>
+        </div>
+    </div>
+    <!-- contuct section -->
+    <div class="container mx-auto my-7 lg:my-16">
+        <h1 class="text-4xl font-bold text-center">Contact With Us</h1>
+        <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+        <div class="lg:my-20 my-8 flex flex-col lg:flex-row gap-12 p-5 lg:p-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 flex-1">
+                <!-- first contauct -->
+                <div class="card bg-gray-300 rounded-none">
+                    <div class="card-body flex items-center justify-center">
+                        <img src="./images/address.png" alt="">
+                      <h2 class="card-title flex items-center justify-center">Address</h2>
+                      <p>A108 Adam Street</p>
+                      <h6>New York, NY 535022</h6>
+                    </div>
+                  </div>
+                  <!-- second contuct -->
+                <div class="card bg-gray-300 rounded-none">
+                    <div class="card-body flex items-center justify-center">
+                        <img src="./images/call.png" alt="">
+                      <h2 class="card-title flex items-center justify-center">Call Us</h2>
+                      <p>+88 01750 00 00 00</p>
+                      <h6>+88 01750 00 00 00</h6>
+                    </div>
+                  </div>
+                  <!-- third contuct -->
+                <div class="card bg-gray-300 rounded-none">
+                    <div class="card-body flex items-center justify-center">
+                        <img src="./images/email.png" alt="">
+                      <h2 class="card-title flex items-center justify-center">Email Us</h2>
+                      <p>info@gmail.com</p>
+                      <h6>info@gmail.com</h6>
+                    </div>
+                  </div>
+                  <!-- fourth contuct -->
+                <div class="card bg-gray-300 rounded-none">
+                    <div class="card-body flex items-center justify-center">
+                        <img src="./images/time.png" alt="">
+                      <h2 class="card-title flex items-center justify-center">Workin Hours</h2>
+                      <p>Mon-Fri: 9AM to 5PM</p>
+                      <h6>Sunday: 9AM to 1 PM</h6>
+                    </div>
+                  </div>
+                </div>
+            <div class="space-y-7 flex-1">
+                <input class="h-9 outline-none p-5 w-56 lg:w-80" type="text" placeholder="Your Name">
+                <br>
+                <input class="h-9  outline-none p-5 w-56 lg:w-80" type="Email" placeholder="Your Email">
+                <br>
+                <input class="h-9  outline-none p-5 w-56 lg:w-80" type="Subject" placeholder="Subject">
+                <br>
+                <textarea class=" p-2 lg:p-5 text-gray-500 outline-none" name="" id="" cols="40" rows="5">Your Massege</textarea>
+                <br>
+                <button class="h-9 bg-orange-600 outline-none text-white w-56 lg:w-80">Send Massege</button>
+
+            </div>
+        </div>
+    </div>
     </main>
-    <footer>
-
-    </footer>
+    <footer class="footer p-10  text-base-content text-white bg-slate-950">
+        <nav>
+          <h6 class="footer-title"><img src="./images/logo2.png" alt=""></h6> 
+          <a class="link link-hover">There are many variations of </a>
+          <a class="link link-hover">passages of Lorem Ipsum</a>
+          <a class="link link-hover">available, but the majority have</a>
+          <a class="link link-hover">suffered alteration in some</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Usefull Link</h6> 
+          <a class="link link-hover">Homes</a>
+          <a class="link link-hover">About Us</a>
+          <a class="link link-hover">Cases</a>
+          <a class="link link-hover">Blog</a>
+          <a class="link link-hover">Contact Us</a>
+        </nav> 
+        <nav>
+          <h6 class="footer-title">Contact Now</h6> 
+          <a class="link link-hover">555 4th 5t NW, Washington
+            <br>
+            DC 20530, United States</a>
+          <a class="link link-hover">+88 01750 000 000
+            <br>
+            +88 01750 000 000</a>
+          <a class="link link-hover">info@gmail.com
+            <br>
+            info@gmail.com</a>
+        </nav> 
+        <form>
+          <h6 class="footer-title  font-bold">Subscribe</h6> 
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text text-white">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</span>
+            </label> 
+            <div class="join">
+              <input type="text" placeholder="Email Address" class="input input-bordered join-item" /> 
+              <button class="btn btn-primary join-item"><img class="w-7" src="./images/right-corner.png" alt=""></button>
+            </div>
+          </fieldset>
+        </form>
+      </footer>
 </body>
 
 </html>
